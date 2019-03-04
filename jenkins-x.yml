@@ -2,3 +2,8 @@ env:
 - name: DEPLOY_NAMESPACE
   value: jx-staging
   valuefrom: null
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-staging
+    valuefrom: null
